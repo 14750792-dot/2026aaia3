@@ -13,7 +13,7 @@ public:
     ListNode* reverseList(ListNode* head) {
 
 
-        vector<int>a;//c++¦ùÁY¦Û¦pªº°}¦C,¤@¶}©l¨S¦³¥ô¦ó­È
+        vector<int>a;//c++ä¼¸ç¸®è‡ªå¦‚çš„é™£åˆ—,ä¸€é–‹å§‹æ²’æœ‰ä»»ä½•å€¼
         while(head !=nullptr){
             a.push_back(head->val);
             head=head->next;
