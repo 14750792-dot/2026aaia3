@@ -29,15 +29,15 @@ public:
         l1=reverse(l1);
         l2=reverse(l2);
 
-        ListNode* ans = new ListNode(999); // ¤u¨ã1
-        ListNode* now = ans; // ¤@­Ó·|²¾°Êªº«ü¼Ð
-        int carry = 0; // ¶i¦ìªº­^¤å, ¥s carry
-        while (l1 != nullptr || l2 != nullptr){ // §â && §ï¦¨ ||
+        ListNode* ans = new ListNode(999); // å·¥å…·1
+        ListNode* now = ans; // ä¸€å€‹æœƒç§»å‹•çš„æŒ‡æ¨™
+        int carry = 0; // é€²ä½çš„è‹±æ–‡, å« carry
+        while (l1 != nullptr || l2 != nullptr){ // æŠŠ && æ”¹æˆ ||
             if (l1 != nullptr) carry += l1->val;
             if (l2 != nullptr) carry += l2->val;
             now->next = new ListNode(carry%10);
             now = now->next;
-            carry = carry/10; // ¶W¹L10ªº¶i¦ìªº³¡¤À
+            carry = carry/10; // è¶…éŽ10çš„é€²ä½çš„éƒ¨åˆ†
             if (l1 != nullptr) l1 = l1->next;
             if (l2 != nullptr) l2 = l2->next;
         }
