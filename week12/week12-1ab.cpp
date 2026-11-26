@@ -1,7 +1,7 @@
 // week12-1a.cpp SOIT106_ADVANCE_011
 # include <iostream>
 using namespace std;
-// §â¤G¶i¦ì, ¶Ç¦¨¤Q¶i¦ì
+// æŠŠäºŒé€²ä½, å‚³æˆåé€²ä½
 int main()
 {
     char s[10];
@@ -17,7 +17,7 @@ int main()
 // week12-1b.cpp SOIT106_ADVANCE_011
 # include <iostream>
 using namespace std;
-// §â¤G¶i¦ì, ¶Ç¦¨¤Q¶i¦ì
+// æŠŠäºŒé€²ä½, å‚³æˆåé€²ä½
 int main()
 {
     char s[10];
